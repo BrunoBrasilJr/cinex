@@ -46,6 +46,8 @@ Nada de ações confusas, botões inúteis ou estados quebrados — tudo foi des
 
 O projeto segue uma organização focada em escalabilidade e separação de responsabilidades:
 
+📁 Arquitetura de pastas
+
 src/
 ├─ app/ # Rotas e páginas (Next.js App Router)
 ├─ components/ # Componentes reutilizáveis (UI e layout)
@@ -55,18 +57,28 @@ src/
 
 ---
 
-## 🚀 Como rodar o projeto localmente
+🚀 Como rodar o projeto localmente
 
 Clone o repositório:
 
-```bash
 git clone https://github.com/BrunoBrasilJr/cinex.git
-```
 
-Entre na pasta do projeto: cd cinex
-Instale as dependências: npm install
-Inicie o servidor de desenvolvimento: npm run dev
-Acesse no navegador: http://localhost:3000
+Entre na pasta do projeto:
+
+cd cinex
+
+Instale as dependências:
+
+npm install
+
+Inicie o servidor de desenvolvimento:
+
+npm run dev
+
+Acesse no navegador:
+
+http://localhost:3000
+
 Obs: este projeto é front-end only e não possui backend.
 
 ---
