@@ -1,63 +1,62 @@
 # 🎬 Cinéx
 
-**Cinéx** é um catálogo de filmes e séries desenvolvido com foco em **experiência do usuário (UX)**, organização de código e boas práticas modernas de **Front-end**.
+Cinéx é um catálogo de filmes e séries desenvolvido com foco em experiência do usuário (UX),
+organização de código e boas práticas modernas de front-end.
 
-O projeto foi criado para servir como **projeto principal de portfólio** (estágio / júnior), indo além de um CRUD básico e explorando decisões reais de produto, interface e usabilidade.
+O projeto foi criado para servir como projeto principal de portfólio (estágio / júnior),
+indo além de um CRUD básico e explorando decisões reais de produto, interface e usabilidade.
 
 ---
 
 ## ✨ Funcionalidades
 
-- 📌 Cadastro de filmes e séries (CRUD completo no front-end)
-- 🔍 Busca por título e notas
-- 🎯 Filtros por avaliação (estrelas) e gênero
-- ⭐ Avaliação por estrelas
-- 💾 Persistência de dados com `localStorage`
-- 🧼 Estados inteligentes (botões só ativam quando fazem sentido)
-- 🌙 Interface dark com foco em legibilidade
-- 🎞️ Animações suaves entre navegação de páginas
-- 📱 Layout totalmente responsivo (mobile-first)
+- Cadastro de filmes e séries (CRUD completo no front-end)
+- Busca por título e notas
+- Filtros por avaliação (estrelas) e gênero
+- Avaliação por estrelas
+- Persistência de dados com localStorage
+- Estados inteligentes (botões só ativam quando fazem sentido)
+- Interface dark com foco em legibilidade
+- Animações suaves entre páginas
+- Layout totalmente responsivo (mobile-first)
 
 ---
 
 ## 🧠 Por que “Cinéx”?
 
-O nome **Cinéx** nasce da junção de dois conceitos:
+O nome Cinéx nasce da junção de dois conceitos:
 
-- **Ciné** → cinema, filmes e séries
-- **X** → experiência (UX) e extensibilidade
+- Ciné → cinema, filmes e séries
+- X → experiência (UX) e extensibilidade
 
-A proposta do projeto é ser simples, mas **bem pensado**, onde cada interação tem um propósito claro.  
-Nada de ações confusas, botões inúteis ou estados quebrados — tudo foi desenhado para parecer um **produto real**, não apenas um exercício acadêmico.
+A proposta do projeto é ser simples, mas bem pensado,
+onde cada interação tem um propósito claro.
+Nada de ações confusas ou estados quebrados.
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
 
-- **Next.js** (App Router)
-- **TypeScript**
-- **React**
-- **Tailwind CSS**
-- **localStorage** (persistência no navegador)
+- Next.js (App Router)
+- TypeScript
+- React
+- Tailwind CSS
+- localStorage
 
 ---
 
 ## 📁 Arquitetura de pastas
 
-O projeto segue uma organização focada em escalabilidade e separação de responsabilidades:
-
-📁 Arquitetura de pastas
-
 src/
-├─ app/ # Rotas e páginas (Next.js App Router)
-├─ components/ # Componentes reutilizáveis (UI e layout)
-├─ features/ # Regras de negócio (catálogo de filmes/séries)
-├─ lib/ # Helpers e utilidades
-├─ styles/ # Estilos globais e tema
+app/ # Rotas e páginas (Next.js App Router)
+components/ # Componentes reutilizáveis (UI e layout)
+features/ # Regras de negócio (catálogo)
+lib/ # Helpers e utilidades
+styles/ # Estilos globais e tema
 
 ---
 
-🚀 Como rodar o projeto localmente
+## 🚀 Como rodar o projeto localmente
 
 Clone o repositório:
 
@@ -83,15 +82,14 @@ Obs: este projeto é front-end only e não possui backend.
 
 ---
 
-🌐 Deploy
+## 🌐 Deploy
 
-O Cinéx pode ser facilmente publicado na Vercel, com integração direta ao GitHub.
+O projeto pode ser facilmente publicado na Vercel,
+com integração direta ao GitHub.
 
 ---
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 
-Desenvolvido por Bruno Brasil
+Desenvolvido por Bruno Brasil  
 GitHub: https://github.com/BrunoBrasilJr
-
-Projeto criado com foco em aprendizado prático, portfólio e boas práticas de UX/UI no desenvolvimento front-end.
