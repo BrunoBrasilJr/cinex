@@ -1,0 +1,8 @@
+/* Tema simples e consistente (dark zinc) */
+:root {
+  --ring: 244 244 245; /* zinc-100 */
+}
+
+::selection {
+  background: rgba(113, 113, 122, 0.35); /* zinc-500-ish */
+}
