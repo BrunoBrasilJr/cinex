@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎬 Cinéx
 
-## Getting Started
+**Cinéx** é um catálogo de filmes e séries desenvolvido com foco em **experiência do usuário (UX)**, organização de código e boas práticas modernas de **Front-end**.
 
-First, run the development server:
+O projeto foi criado para servir como **projeto principal de portfólio** (estágio / júnior), indo além de um CRUD básico e explorando decisões reais de produto, interface e usabilidade.
+
+---
+
+## ✨ Funcionalidades
+
+- 📌 Cadastro de filmes e séries (CRUD completo no front-end)
+- 🔍 Busca por título e notas
+- 🎯 Filtros por avaliação (estrelas) e gênero
+- ⭐ Avaliação por estrelas
+- 💾 Persistência de dados com `localStorage`
+- 🧼 Estados inteligentes (botões só ativam quando fazem sentido)
+- 🌙 Interface dark com foco em legibilidade
+- 🎞️ Animações suaves entre navegação de páginas
+- 📱 Layout totalmente responsivo (mobile-first)
+
+---
+
+## 🧠 Por que “Cinéx”?
+
+O nome **Cinéx** nasce da junção de dois conceitos:
+
+- **Ciné** → cinema, filmes e séries
+- **X** → experiência (UX) e extensibilidade
+
+A proposta do projeto é ser simples, mas **bem pensado**, onde cada interação tem um propósito claro.  
+Nada de ações confusas, botões inúteis ou estados quebrados — tudo foi desenhado para parecer um **produto real**, não apenas um exercício acadêmico.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- **Next.js** (App Router)
+- **TypeScript**
+- **React**
+- **Tailwind CSS**
+- **localStorage** (persistência no navegador)
+
+---
+
+## 📁 Arquitetura de pastas
+
+O projeto segue uma organização focada em escalabilidade e separação de responsabilidades:
+
+src/
+├─ app/ # Rotas e páginas (Next.js App Router)
+├─ components/ # Componentes reutilizáveis (UI e layout)
+├─ features/ # Regras de negócio (catálogo de filmes/séries)
+├─ lib/ # Helpers e utilidades
+├─ styles/ # Estilos globais e tema
+
+---
+
+## 🚀 Como rodar o projeto localmente
+
+Clone o repositório:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/BrunoBrasilJr/cinex.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Entre na pasta do projeto: cd cinex
+Instale as dependências: npm install
+Inicie o servidor de desenvolvimento: npm run dev
+Acesse no navegador: http://localhost:3000
+Obs: este projeto é front-end only e não possui backend.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🌐 Deploy
 
-## Learn More
+O Cinéx pode ser facilmente publicado na Vercel, com integração direta ao GitHub.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👨‍💻 Autor
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Desenvolvido por Bruno Brasil
+GitHub: https://github.com/BrunoBrasilJr
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Projeto criado com foco em aprendizado prático, portfólio e boas práticas de UX/UI no desenvolvimento front-end.
