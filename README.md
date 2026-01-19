@@ -46,7 +46,8 @@ git clone https://github.com/BrunoBrasilJr/cinex.git
 cd cinex
 npm install
 npm run dev
+```
+Acesse: http://localhost:3000
+Obs: projeto front-end only, sem backend.
 
-# Acesse: http://localhost:3000
-# Obs: projeto front-end only, sem backend.
-# 🔗 Repositório: https://github.com/BrunoBrasilJr/cinex
+🔗 Repositório: https://github.com/BrunoBrasilJr/cinex
