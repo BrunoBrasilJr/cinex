@@ -39,28 +39,14 @@ aplicando boas práticas de componentização, organização de estado e UX.
 
 ---
 
-## ▶️ Como rodar o projeto localmente
+## ▶️ Como rodar localmente
 
-# Clone o repositório
+```bash
 git clone https://github.com/BrunoBrasilJr/cinex.git
-
-# Acesse a pasta do projeto
 cd cinex
-
-# Instale as dependências
 npm install
-
-# Inicie o servidor de desenvolvimento
 npm run dev
 
-# Acesse no navegador
-# http://localhost:3000
-
----
-
-# Obs: este projeto é front-end only e não possui backend.
-
----
-
-# 🔗 Links
-# Repositório: https://github.com/BrunoBrasilJr/cinex
+# Acesse: http://localhost:3000
+# Obs: projeto front-end only, sem backend.
+# 🔗 Repositório: https://github.com/BrunoBrasilJr/cinex
