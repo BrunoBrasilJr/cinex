@@ -49,5 +49,3 @@ npm run dev
 ```
 Acesse: http://localhost:3000
 Obs: projeto front-end only, sem backend.
-
-🔗 Repositório: https://github.com/BrunoBrasilJr/cinex
