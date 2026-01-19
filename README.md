@@ -1,95 +1,66 @@
-# 🎬 Cinéx
+# Cinex 🎬
 
-Cinéx é um catálogo de filmes e séries desenvolvido com foco em experiência do usuário (UX),
-organização de código e boas práticas modernas de front-end.
+Cinex é uma aplicação **100% front-end** para visualização e busca de filmes e séries, desenvolvida com foco em
+experiência do usuário, organização de código e decisões reais de arquitetura.
 
-O projeto foi criado para servir como projeto principal de portfólio (estágio / júnior),
-indo além de um CRUD básico e explorando decisões reais de produto, interface e usabilidade.
+O projeto simula um cenário real de produto, priorizando clareza visual, responsividade e componentização.
+
+---
+
+## 🎯 Objetivo do Projeto
+Construir uma aplicação front-end moderna que permita explorar filmes e séries de forma intuitiva,
+aplicando boas práticas de componentização, organização de estado e UX.
+
+---
+
+## 🛠 Stack Utilizada
+- React / Next.js (App Router)
+- JavaScript / TypeScript
+- Tailwind CSS
+- Consumo de API externa
+- LocalStorage
 
 ---
 
 ## ✨ Funcionalidades
-
-- Cadastro de filmes e séries (CRUD completo no front-end)
-- Busca por título e notas
-- Filtros por avaliação (estrelas) e gênero
-- Avaliação por estrelas
-- Persistência de dados com localStorage
-- Estados inteligentes (botões só ativam quando fazem sentido)
-- Interface dark com foco em legibilidade
-- Animações suaves entre páginas
-- Layout totalmente responsivo (mobile-first)
+- Listagem de filmes e séries
+- Busca dinâmica
+- Interface totalmente responsiva
+- Componentização reutilizável
+- Renderização dinâmica de dados
 
 ---
 
-## 🧠 Por que “Cinéx”?
-
-O nome Cinéx nasce da junção de dois conceitos:
-
-- Ciné → cinema, filmes e séries
-- X → experiência (UX) e extensibilidade
-
-A proposta do projeto é ser simples, mas bem pensado,
-onde cada interação tem um propósito claro.
-Nada de ações confusas ou estados quebrados.
+## 🧠 Decisões Técnicas
+- Estrutura de pastas organizada visando escalabilidade
+- Separação clara de responsabilidades entre componentes
+- Foco em usabilidade, navegação simples e consistência visual
+- Código orientado à legibilidade e manutenção
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## ▶️ Como rodar o projeto localmente
 
-- Next.js (App Router)
-- TypeScript
-- React
-- Tailwind CSS
-- localStorage
-
----
-
-## 📁 Arquitetura de pastas
-
-src/
-app/ # Rotas e páginas (Next.js App Router)
-components/ # Componentes reutilizáveis (UI e layout)
-features/ # Regras de negócio (catálogo)
-lib/ # Helpers e utilidades
-styles/ # Estilos globais e tema
-
----
-
-## 🚀 Como rodar o projeto localmente
-
-Clone o repositório:
-
+# Clone o repositório
 git clone https://github.com/BrunoBrasilJr/cinex.git
 
-Entre na pasta do projeto:
-
+# Acesse a pasta do projeto
 cd cinex
 
-Instale as dependências:
-
+# Instale as dependências
 npm install
 
-Inicie o servidor de desenvolvimento:
-
+# Inicie o servidor de desenvolvimento
 npm run dev
 
-Acesse no navegador:
-
-http://localhost:3000
-
-Obs: este projeto é front-end only e não possui backend.
+# Acesse no navegador
+# http://localhost:3000
 
 ---
 
-## 🌐 Deploy
-
-O projeto pode ser facilmente publicado na Vercel,
-com integração direta ao GitHub.
+# Obs: este projeto é front-end only e não possui backend.
 
 ---
 
-## 👨‍💻 Autor
-
-Desenvolvido por Bruno Brasil  
-GitHub: https://github.com/BrunoBrasilJr
+# 🔗 Links
+# Repositório: https://github.com/BrunoBrasilJr/cinex
