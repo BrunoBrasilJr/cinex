@@ -48,4 +48,5 @@ npm install
 npm run dev
 ```
 Acesse: http://localhost:3000
-Obs: projeto front-end only, sem backend.
+
+(Obs: projeto front-end only, sem backend.)
